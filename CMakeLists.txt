@@ -26,3 +26,5 @@ endif()
 
 add_example(morph_examples)
 add_example(contours_examples)
+add_example(basic_image_operations)
+add_example(datatype_conversion)
