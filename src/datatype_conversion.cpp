@@ -15,7 +15,7 @@ int main()
 
     // Converting data type to float32
     cv::Mat imageFloat32;
-    image.convertTo(imageFloat32, CV_32FC3, 1.0 / 255);
+    image.convertTo(imageFloat32, CV_32FC3, 1.0 / 255.0);
 
     // Convert again to uint8
     cv::Mat imageUint8;
